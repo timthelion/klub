@@ -4,6 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+celery = "*"
+django-celery-beat = "*"
 django-stdimage = "*"
 reportlab = "*"
 django-extensions = "*"
